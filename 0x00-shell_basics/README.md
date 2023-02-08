@@ -9,3 +9,4 @@
 9. script 8-firstdelete: deletes file /tmp/my_first_directory/betty
 10. script 9-firstdirdeletion: deletes directory /tmp/my_first_directory
 11. script 10-back: changes the working directory to the previous working directory
+12. script 11-lists: lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory, in long format.
