@@ -11,3 +11,4 @@
 11. script 10-back: changes the working directory to the previous working directory
 12. script 11-lists: lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory,(in this order) in long format.
 13. script 12-file_type: prints the type of file
+14. script 13-symbolic_link: creates a symbolic link between /bin/ls and names it _ls_
