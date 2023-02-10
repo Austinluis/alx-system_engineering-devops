@@ -8,3 +8,4 @@
 8. script 7-everybody: gives everyone execute permission
 9. script 8-James_Bond: set no permission to user and group and all permissions to others in fle 'hello'
 10. script 9-John_Doe: gives user all permissions, read and execute permissions to gruops and read write and execute permissions to others (only these permissions others are set to 0) on file 'hello'
+11. script 10-mirror_permissions: sets the mode of 'hello' the same as 'olleh'
