@@ -2,3 +2,4 @@
 2. script 1-who_am_i: prints effective current username 
 3. script 2-groups: prints all grups the current user is part of
 4. script 3-new_owner: changes ownership of the file hello to betty
+5. script 4-empty: creates a file 'hello'
