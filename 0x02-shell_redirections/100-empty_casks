@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la "$(find -empty)" | cut -d '/' -f 2
+ls -laR "$(find -empty)" | cut -d '/' -f 2
