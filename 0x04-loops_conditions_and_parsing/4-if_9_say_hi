@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# prints 'Best School' on 10 linesusing the while loop
+# prints hi after the 9th iteration
+
+i=0
+while (( "$i" < 10 )); do
+	echo "Best School"
+	if [ "$i" -eq 8 ]; then
+		echo "Hi"
+	fi
+	((i++))
+done
