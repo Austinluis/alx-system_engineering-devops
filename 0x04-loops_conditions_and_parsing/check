@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# makes the file executable and checks for errors
+#+ using shellcheck and pushes it to github if no errors
+
+if [ -e "$1" ]
+	then
+		chmod u+x "$1" && check=$(shellcheck "$1")
+		if [ -n "$check" ]
+			then echo "$check"
+			else gti "$1" "$2"
+		fi
+fi
