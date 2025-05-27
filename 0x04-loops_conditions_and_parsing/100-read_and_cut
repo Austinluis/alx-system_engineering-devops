@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Displays the content of the file /etc/passwd.
+# Only displays:
+#    username
+#    user id
+#    Home directory path for the user
+
+while IFS=":" read -r uname _ uid _ _ home _; do
+	echo "$uname:$uid:$home"
+done < /etc/passwd
