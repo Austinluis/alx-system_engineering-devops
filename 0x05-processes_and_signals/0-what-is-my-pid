@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays the bash PID
+
+ps | awk '/bash/ { print $1 }'
