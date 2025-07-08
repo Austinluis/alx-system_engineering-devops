@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# creates index.html file in container to dispaly "Hello Alx"
+
+echo "Hello ALX" > /var/www/html/index.html
