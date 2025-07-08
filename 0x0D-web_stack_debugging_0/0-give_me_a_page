@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 # creates index.html file in container to dispaly "Hello Alx"
 
-echo "Hello Holberton" > /var/www/html/index.html
+apt-get install -y apache2
+echo "Hello ALX" > /var/www/html/index.html
+echo "ServiceName localhost" >> /etc/apache2.conf
+apachectl start
